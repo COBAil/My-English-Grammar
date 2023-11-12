@@ -44,6 +44,7 @@ class SelectionWindow(QtWidgets.QMainWindow):  # Выбор между теор�
         self.tense = tense
         average_value = CONN.cursor().execute(
             f"SELECT value, count FROM Results WHERE tense = '{self.tense}'").fetchone()
+
         try:
             self.label.setText(f"Средний результат: {average_value[0] // average_value[1]}/5")
         except ZeroDivisionError:

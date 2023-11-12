@@ -14,7 +14,8 @@ class WordFormationSelectionWindow(QtWidgets.QMainWindow):  # Выбор меж�
         self.TheoryWindow = None
         self.TasksWindow = None
         self.StartWindow = None
-        average_value = CONN.cursor().execute(f"SELECT value, count FROM Results").fetchone()
+        average_value = CONN.cursor().execute(f"SELECT value, count FROM Result").fetchone()
+
         try:
             self.label.setText(f"Средний результат: {average_value[0] // average_value[1]}/5")
         except ZeroDivisionError:
@@ -45,6 +46,17 @@ class TheoryWindow(QtWidgets.QMainWindow):  # Теория
     def __init__(self):
         super().__init__()
         uic.loadUi('Windows/WordFormationWindows/WordFormationTheoryWindow.ui', self)
+
+        self.WordFormationSelectionWindow = None
+
+        self.plainTextEdit.appendPlainText(CONN.cursor().execute(f"SELECT theory FROM Theory").fetchone()[0])
+
+        self.pushButton.clicked.connect(self.back)
+
+    def back(self):
+        self.close()
+        self.WordFormationSelectionWindow = WordFormationSelectionWindow()
+        self.WordFormationSelectionWindow.show()
 
 
 class TasksWindow(QtWidgets.QMainWindow):  # Практика
