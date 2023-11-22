@@ -17,7 +17,7 @@ class WordFormationSelectionWindow(QtWidgets.QMainWindow):  # Выбор меж�
         average_value = CONN.cursor().execute(f"SELECT value, count FROM Result").fetchone()
 
         try:
-            self.label.setText(f"Средний результат: {average_value[0] // average_value[1]}/5")
+            self.label.setText(f"Средний результат: {average_value[0] // average_value[1]}/10")
         except ZeroDivisionError:
             self.label.setText('Средний результат: 0/10')
 
