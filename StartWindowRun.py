@@ -16,7 +16,7 @@ class StartWindow(QtWidgets.QMainWindow):  # Выбор "категории"
 
         self.pushButton.clicked.connect(self.open_TensesWindow)
         self.pushButton_2.clicked.connect(self.open_WordFormationWindow)
-        # self.pushButton_3.clicked.connect(self.open_s)
+        # self.pushButton_3.clicked.connect(self.open_SettingsWindow)
 
     def open_TensesWindow(self):
         self.close()
@@ -28,7 +28,7 @@ class StartWindow(QtWidgets.QMainWindow):  # Выбор "категории"
         self.WordFormationSelectionWindow = WordFormationSelectionWindow()
         self.WordFormationSelectionWindow.show()
 
-    # def open_s(self):
+    # def open_SettingsWindow(self):
     #     pass
 
 

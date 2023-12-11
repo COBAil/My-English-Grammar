@@ -13,7 +13,7 @@ class TensesWindow(QtWidgets.QMainWindow):  # Выбор группы времё
         super().__init__()
         uic.loadUi('Windows/TensesWindows/TensesWindow.ui', self)
 
-        self.SelectionWindow = None
+        self.TensesSelectionWindow = None
         self.StartWindow = None
 
         self.pushButton.clicked.connect(self.open_SelectionWindow)
@@ -23,8 +23,8 @@ class TensesWindow(QtWidgets.QMainWindow):  # Выбор группы времё
 
     def open_SelectionWindow(self):
         self.close()
-        self.SelectionWindow = SelectionWindow(self.sender().text())
-        self.SelectionWindow.show()
+        self.TensesSelectionWindow = TensesSelectionWindow(self.sender().text())
+        self.TensesSelectionWindow.show()
 
     def back(self):
         from StartWindowRun import StartWindow
@@ -33,7 +33,7 @@ class TensesWindow(QtWidgets.QMainWindow):  # Выбор группы времё
         self.StartWindow.show()
 
 
-class SelectionWindow(QtWidgets.QMainWindow):  # Выбор между теорией и практикой
+class TensesSelectionWindow(QtWidgets.QMainWindow):  # Выбор между теорией и практикой
     def __init__(self, tense):
         super().__init__()
         uic.loadUi('Windows/TensesWindows/TensesSelectionWindow.ui', self)
@@ -75,7 +75,7 @@ class TheoryWindow(QtWidgets.QMainWindow):  # Теория
         super().__init__()
         uic.loadUi('Windows/TensesWindows/TensesTheoryWindow.ui', self)
 
-        self.SelectionWindow = None
+        self.TensesSelectionWindow = None
         self.tense = tense
         self.file_name_3 = CONN.cursor().execute(
             f"SELECT image_path FROM ImagesAndExamples WHERE tense = '{self.tense} Simple'").fetchone()[0]
@@ -155,8 +155,8 @@ class TheoryWindow(QtWidgets.QMainWindow):  # Теория
 
     def back(self):
         self.close()
-        self.SelectionWindow = SelectionWindow(self.tense)
-        self.SelectionWindow.show()
+        self.TensesSelectionWindow = TensesSelectionWindow(self.tense)
+        self.TensesSelectionWindow.show()
 
 
 class TasksWindow(QtWidgets.QMainWindow):  # Задания
@@ -222,7 +222,7 @@ class ResultsWindow(QtWidgets.QMainWindow):  # Результаты
         super().__init__()
         uic.loadUi('Windows/TensesWindows/TensesResultsWindow.ui', self)
 
-        self.SelectionWindow = None
+        self.TensesSelectionWindow = None
         self.tense = tense
 
         self.label.setText(f"Правильных ответов {quantity_correct_answer}/5")
@@ -235,8 +235,8 @@ class ResultsWindow(QtWidgets.QMainWindow):  # Результаты
 
     def back(self):
         self.close()
-        self.SelectionWindow = SelectionWindow(self.tense)
-        self.SelectionWindow.show()
+        self.TensesSelectionWindow = TensesSelectionWindow(self.tense)
+        self.TensesSelectionWindow.show()
 
 
 def except_hook(cls, exception, traceback):
