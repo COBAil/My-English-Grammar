@@ -1,7 +1,6 @@
-<h1 align="center">It hasn't done yet</h1>
-
 <h1 align="center">My Tenses</h1>
 
+<h2 align="center">It hasn't done yet</h2>
 ## Установка
 
 1. Клонируйте или скачайте репозиторий [Github](https://github.com/COBAil/My-English-Grammar).
