@@ -18,7 +18,7 @@ class WordFormationSelectionWindow(QtWidgets.QMainWindow):  # Выбор меж�
         average_value = CONN.cursor().execute(f"SELECT value, count FROM Result").fetchone()
 
         try:
-            self.label.setText(f"Средний результат: {average_value[0] // average_value[1]}/10")
+            self.label.setText(f"Средний результат: {average_value[0] / average_value[1]:.2f}/10")
         except ZeroDivisionError:
             self.label.setText('Средний результат: 0/10')
 
@@ -111,10 +111,13 @@ class TasksWindow(QtWidgets.QMainWindow):  # Практика
     def display_question_and_answers(self):
         self.label_3.setText(f"Вопрос {self.number_question}/10")
         self.label_2.setText(self.word)
+        list_answer_numbers = [1, 2, 3, 4]
 
-        for i, radioButton in enumerate([self.radioButton, self.radioButton_2, self.radioButton_3, self.radioButton_4]):
+        for radioButton in [self.radioButton, self.radioButton_2, self.radioButton_3, self.radioButton_4]:
+            answer_number = choice(list_answer_numbers)
             radioButton.setText(CONN.cursor().execute(
-                f"SELECT answer_{i + 1} FROM WordFormationTasks WHERE word = '{self.word}'").fetchone()[0])
+                f"SELECT answer_{answer_number} FROM WordFormationTasks WHERE word = '{self.word}'").fetchone()[0])
+            list_answer_numbers.remove(answer_number)
 
 
 class ResultWindow(QtWidgets.QMainWindow):  # Результаты

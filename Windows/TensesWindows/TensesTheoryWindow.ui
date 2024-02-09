@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1012</width>
-    <height>598</height>
+    <height>613</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -58,7 +58,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>510</y>
+      <y>530</y>
       <width>211</width>
       <height>71</height>
      </rect>
@@ -85,7 +85,7 @@ QLabel
       <x>10</x>
       <y>10</y>
       <width>431</width>
-      <height>491</height>
+      <height>511</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -109,7 +109,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>510</y>
+      <y>530</y>
       <width>211</width>
       <height>71</height>
      </rect>
@@ -200,7 +200,7 @@ QLabel
       <x>730</x>
       <y>160</y>
       <width>271</width>
-      <height>131</height>
+      <height>141</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -222,7 +222,7 @@ QLabel
       <x>450</x>
       <y>160</y>
       <width>271</width>
-      <height>81</height>
+      <height>91</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -243,7 +243,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>250</y>
+      <y>260</y>
       <width>271</width>
       <height>41</height>
      </rect>
@@ -265,9 +265,9 @@ QLabel
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>300</y>
+      <y>310</y>
       <width>271</width>
-      <height>131</height>
+      <height>141</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -287,9 +287,9 @@ QLabel
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>300</y>
+      <y>310</y>
       <width>271</width>
-      <height>81</height>
+      <height>91</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -310,7 +310,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>390</y>
+      <y>410</y>
       <width>271</width>
       <height>41</height>
      </rect>
@@ -332,7 +332,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>440</y>
+      <y>460</y>
       <width>271</width>
       <height>141</height>
      </rect>
@@ -354,7 +354,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>440</y>
+      <y>460</y>
       <width>271</width>
       <height>91</height>
      </rect>
@@ -377,7 +377,7 @@ QLabel
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>540</y>
+      <y>560</y>
       <width>271</width>
       <height>41</height>
      </rect>

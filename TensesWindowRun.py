@@ -46,7 +46,7 @@ class TensesSelectionWindow(QtWidgets.QMainWindow):  # Выбор между т�
             f"SELECT value, count FROM Results WHERE tense = '{self.tense}'").fetchone()
 
         try:
-            self.label.setText(f"Средний результат: {average_value[0] // average_value[1]}/5")
+            self.label.setText(f"Средний результат: {average_value[0] / average_value[1]:.2f}/5")
         except ZeroDivisionError:
             self.label.setText('Средний результат: 0/5')
 

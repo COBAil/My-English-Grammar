@@ -104,7 +104,7 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>20</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -122,7 +122,7 @@ QPushButton:hover
 }</string>
     </property>
     <property name="text">
-     <string>Tenses</string>
+     <string>Времена</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
