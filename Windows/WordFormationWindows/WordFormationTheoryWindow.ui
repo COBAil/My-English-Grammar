@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1022</width>
-    <height>598</height>
+    <width>1021</width>
+    <height>771</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,22 +28,13 @@ QPushButton
     width: 75px;
     height: 50px;
 	border-radius: 20px;
-	font: 75 15pt &quot;Microsoft YaHei UI&quot;;
+	font: 75 25pt &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }
 
 QPushButton:hover
 {
     background-color: silver;
-}
-
-QLabel
-{
-	color: rgb(255, 255, 255);
-	background-color: #323232;
-    border-radius: 15px;
-	font: &quot;Microsoft YaHei UI&quot;;
-	font-weight: bold;
 }</string>
    </property>
    <widget class="QPlainTextEdit" name="plainTextEdit">
@@ -52,7 +43,7 @@ QLabel
       <x>10</x>
       <y>10</y>
       <width>1001</width>
-      <height>491</height>
+      <height>671</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -65,15 +56,267 @@ QLabel
 	font-weight: bold;
 }</string>
     </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>			         ПРИСТАВКИ (PREFIXES) КАК СПОСОБ СЛОВООБРАЗОВАНИЯ В АНГЛИЙСКОМ
+
+Prefix, то есть приставка или префикс — это часть слова, которая стоит перед корнем. Приставки чаще всего используют для изменения значения слова и реже — для изменения части речи.
+
+
+			            Приставки, изменяющие значение слова на противоположное 
+
+
+Un- 				Undo	Отменить
+Выполнить противоположное действие		Unpack	Распаковать
+				Unhappy	Несчастливый
+	
+Im-, in-, il-, ir- 			Illegal	Нелегальный
+Эквивалент русской приставки не		Impossible	Невозможный
+				Insecure	Небезопасный
+				Irregular	Нерегулярный
+
+Dis-				Disagree	Не согласиться
+Выполнить противоположное действие		Displeasure	Неудовольствие
+				Disqualify	Дисквалифицировать
+
+Mis- 				Misaligned	Несогласованные
+Неправильно что-то сделать		Mislead	Сбить с толку
+				Misspelt	С ошибкой в слове 
+
+При использовании приставок im-, in-, il -,ir- вам необходимо выбрать, какая из них подходит к слову, которое вы хотите изменить. 
+
+Im- стоит только перед согласными b, p, m 
+Il- стоит только перед буквой l 
+Ir- стоит только перед r 
+
+Во всех остальных случаях выбирайте приставку in-.  In- стоит перед гласными (за исключением i или u) или согласными. Также вы можете встретить случай когда слово начинается с in, но это не негативная приставка, а часть слова. Например, insist. 
+
+
+		       	           Приставки с другим приставочным значением: существительные
+
+
+Anti- 				Anti-government	Антиправительственный
+Против чего-то			Anti-racist	Антирассисткий
+				Anti-war	Антивоенный				
+
+Auto- 				Autobiography	Автобиография
+Самостоятельный, автоматический		Automobile	Автомобиль
+
+Mid- 				Midday	Полдень
+Середина чего-то			Midnight	Полночь
+				Mid-October	Середина октября
+
+Post- 				Post-election	Поствыборный
+После какого-то события			Post-war	Послевоенный
+
+Super- 				Super-hero	Супер герой
+Супер				Supermodel	Супермодель 
+
+
+			                   Приставки с другим приставочным значением: глаголы
+
+
+De- 				De-classify	Деклассифицировать
+Изменить на противоположное		Decontaminate	Обеззараживать
+				Demotivate	Демотивировать
+
+Over- 				Overcook	Пережарить, передержать
+Слишком				Overcharge	Завышать цену
+				Overrate	Переоценивать
+
+Under- 				Undercook	Недожарить, недоварить
+Сделать что-то не до конца		Underestimate	Недооценить
+				Undermine	Подрывать
+
+Re- 				Reconsider	Пересмотреть
+Пере-				Redo	Переделать
+				Rewrite	Переписать
+
+En-, em- 				Embark	Начать
+Воплощать качества или состояния		Enclose	Окружать
+				Encourage	Вдохновить
+
+Запомните, что приставка em- пишется перед звуками [b], [p], [m]. В остальных случаях — пишите en-.
+
+
+			Приставки с другим приставочным значением: прилагательные
+
+
+Extra- 				Extraordinary		Экстраординарный
+За пределами чего-то			Extraterrestrial	Внеземной
+
+Inter- 				Interactive		Интерактивный
+Взаимодействие чего-то			International		Международный 
+
+
+			               СУФФИКСЫ КАК СПОСОБ СЛОВООБРАЗОВАНИЯ В АНГЛИЙСКОМ
+
+Suffix стоит после корня перед окончанием — по нему просто определить, к какой части речи принадлежит слово. Давайте посмотрим, как это происходит. Суффиксы существительных можно разделить на две группы: суффиксы субъекта деятельности и суффиксы абстрактных существительных.
+
+
+			Словообразование существительных с помощью суффикса
+					Субъект деятельности
+
+
+-er/-or 				Driver	Водитель
+Описывают роль занятий человека		Writer	Писатель
+				Director	Директор
+
+-an, -ian  				Magician	Фокусник
+Указывается в названии профессии		Historian	Историк
+или страны происхождения		Australian	Австралиец
+
+
+-ist 				Capitalist	Капиталист
+Указывает на принадлежность к соц. течению	Marxist	Марксист
+				Socialist	Социалист
+
+-ant, -ent 				Mutant	Мутант
+Помогают образовать существительное       	Student	Студент
+от глагола				Migrant	Мигрант
+				
+
+
+-ee  				Employee	Наемный работник
+Помогают образовывать отглагольные		Referee	Рефери
+существительные			Appointee	Назначенное лицо
+
+
+-ess 				Princess	Принцесса
+Суффикс существительных женского рода	Waitress	Официантка
+				Lioness	Львица
+
+
+				              Абстрактные существительные  
+
+
+-ity 				Activity	Активность
+Абстрактное понятие			Severity	Серьезность
+				Magnanimity	Могущественность
+
+-ance, -ence, -ancy, -ency 			Reliance	Зависимость
+Находиться в каком-то состоянии		Defence	Защита
+				Insistence	Настойчивость
+
+-ion, -tion, -sion 			Promotion	Повышение
+Абстрактное понятие			Deviation	Отклонение
+				Admission	Поступление
+
+-ism				Anarchism	Анархизм
+Социальное течение			Subjectivism	Субъективизм
+				Racism	Расизм
+
+-hood 				Brotherhood	Братство
+Какое-то объединение			Childhood	Детство
+				Neighbourhood	Район
+
+-ure 				Pressure	Давление
+Образует существительные от глаголов	Legislature	Законодательный акт
+				Exposure	Воздействие
+
+-dom				Fandom	Фанатская группа
+ Какое-то объединение			Boredom	Скука
+				Kingdom	Королевство
+	
+-ment				Amazement	Потрясение
+Обозначает результат действия		Disappointment	Разочарование
+				Parliament	Парламент
+
+-ness				Greatness	Величие
+Абстрактное понятие			Happiness	Счастье
+				Usefulness	Полезность
+
+-ship  				Friendship	Дружба
+Образует существительные		Workmanship		Качество изготовления
+от других существительных		Membership	Членство 
+
+
+			Словообразование прилагательных с помощью суффикса 
+
+
+-able/-ible				Drinkable	Питьевой
+Указывает на возможность использования	Portable	Портативный
+				Flexible	Гибкий
+
+-ful				Forgetful	Забывчивый
+Указывает на обладание каким-то качеством	Helpful	Полезный
+				Useful	Пригодный
+
+-en				Broken	Сломанный
+Указывает на качество или материал предмета	Golden	Золотой
+				Wooden	Деревянный
+
+-ive				Active	Активный
+Обозначает наличие какого-либо качества	Passive	Пассивный
+				Productive	Продуктивный
+
+-less				Homeless	Бездомный
+Отрицает наличие чего-то			Hopeless	Безнадежный
+				Useless	Бесполезный
+
+-ous				Cautious	Осторожный
+Владеющий чем-то, полный чего-то		Famous	Знаменитый
+				Nervous	Нервный
+
+-y				Cloudy	Облачный
+Используется для описания состояния чего-либо	Rainy	Дождливый
+				Windy	Ветренный
+
+
+		                 	                            Словообразование глаголов с помощью суффикса 
+
+-ate 				Complicate	Усложнять
+				Dominate	Доминировать
+				Irritate	Раздражать
+
+-ify, -fy 				Beautify 	Делать красивее
+				Clarify	Очищать
+				Identify	Идентифицировать
+
+-ise (в британском английском)		Economise	Экономить
+-ize (в американском английском)		Realise	Понимать
+				Industrialize 	Индустриализировать
+
+-en 				Harden	Делать жестче
+				Soften	Делать мягче
+				Shorten	Делать короче 
+
+
+			                                Словообразование наречия с помощью суффикса 
+
+
+-ly				Сalmly	Тихо
+Эквивалент русского окончания «о» у наречий	Easily	Легко
+				Quickly	Быстро
+
+-wise				Anti-clockwise	Против часовой стрелки
+Для передачи движения, позиции, направления	Clockwise	По часовой стрелке
+				Edgewise	Между
+
+-ward(s)				Downwards	Вниз
+Указывает направление			Homeward(s)		По направлению к дому
+				Upwards	Вверх 
+
+
+			ОБЪЕДИНЕНИЕ СУФФИКСОВ И ПРИСТАВОК: ПРЕОБРАЗОВАНИЕ СЛОВ В АНГЛИЙСКОМ ЯЗЫКЕ
+
+Замечательная характеристика словообразования — в том, что от одного корня и основы можно составить целую группу слов. Нанизывая приставки и суффиксы на основы мы можем получить различные формы слов в английском языке. Вот приер того, как совершается такая трансформация:
+
+Agree =&gt; disagree =&gt; disagreeable / disagreement. 	Соглашаться =&gt; не соглашаться =&gt; несогласный / несогласие.
+Laugh =&gt; laughter =&gt; laughable. 		Смеяться =&gt; смех =&gt; смехотворный.
+Body =&gt; embody =&gt; embodiment. 		Тело =&gt; воплощать =&gt; воплощение. </string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>510</y>
+      <y>690</y>
       <width>211</width>
       <height>71</height>
      </rect>

@@ -50,8 +50,6 @@ class TheoryWindow(QtWidgets.QMainWindow):  # Теория
 
         self.WordFormationSelectionWindow = None
 
-        self.plainTextEdit.appendPlainText(CONN.cursor().execute(f"SELECT theory FROM Theory").fetchone()[0])
-
         self.pushButton.clicked.connect(self.back)
 
     def back(self):

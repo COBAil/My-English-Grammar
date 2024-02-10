@@ -12,11 +12,9 @@ class StartWindow(QtWidgets.QMainWindow):  # Выбор "категории"
 
         self.TensesWindow = None
         self.WordFormationSelectionWindow = None
-        # sef._ = None
 
         self.pushButton.clicked.connect(self.open_TensesWindow)
         self.pushButton_2.clicked.connect(self.open_WordFormationWindow)
-        # self.pushButton_3.clicked.connect(self.open_SettingsWindow)
 
     def open_TensesWindow(self):
         self.close()
@@ -27,9 +25,6 @@ class StartWindow(QtWidgets.QMainWindow):  # Выбор "категории"
         self.close()
         self.WordFormationSelectionWindow = WordFormationSelectionWindow()
         self.WordFormationSelectionWindow.show()
-
-    # def open_SettingsWindow(self):
-    #     pass
 
 
 def except_hook(cls, exception, traceback):
