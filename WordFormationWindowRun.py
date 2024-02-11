@@ -20,7 +20,7 @@ class WordFormationSelectionWindow(QtWidgets.QMainWindow):  # Выбор меж�
         try:
             self.label.setText(f"Средний результат: {average_value[0] / average_value[1]:.2f}/10")
         except ZeroDivisionError:
-            self.label.setText('Средний результат: 0/10')
+            self.label.setText('Средний результат: 0.00/10')
 
         self.pushButton.clicked.connect(self.open_TheoryWindow)
         self.pushButton_2.clicked.connect(self.open_TasksWindow)

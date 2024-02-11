@@ -109,7 +109,7 @@ QLabel
      </font>
     </property>
     <property name="text">
-     <string>Средний результат: 0/5</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

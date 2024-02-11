@@ -48,7 +48,7 @@ class TensesSelectionWindow(QtWidgets.QMainWindow):  # Выбор между т�
         try:
             self.label.setText(f"Средний результат: {average_value[0] / average_value[1]:.2f}/5")
         except ZeroDivisionError:
-            self.label.setText('Средний результат: 0/5')
+            self.label.setText('Средний результат: 0.00/5')
 
         self.pushButton.clicked.connect(self.open_TheoryWindow)
         self.pushButton_2.clicked.connect(self.open_TasksWindow)
