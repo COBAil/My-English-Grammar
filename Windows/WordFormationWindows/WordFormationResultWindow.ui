@@ -106,7 +106,7 @@ QLabel
      <string notr="true"/>
     </property>
     <property name="text">
-     <string>Правильных ответов 10/10</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

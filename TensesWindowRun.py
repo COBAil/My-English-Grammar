@@ -225,7 +225,7 @@ class ResultsWindow(QtWidgets.QMainWindow):  # Результаты
         self.TensesSelectionWindow = None
         self.tense = tense
 
-        self.label.setText(f"Правильных ответов {quantity_correct_answer}/5")
+        self.label.setText(f"Правильных ответов: {quantity_correct_answer}/5")
         CONN.cursor().execute(f"UPDATE Results SET value = value + {quantity_correct_answer}, "
                               f"count = count + 1 WHERE tense = '{self.tense}'")
 

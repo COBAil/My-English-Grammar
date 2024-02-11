@@ -125,7 +125,7 @@ class ResultWindow(QtWidgets.QMainWindow):  # Результаты
 
         self.WordFormationSelectionWindow = None
 
-        self.label.setText(f"Правильных ответов {quantity_correct_answer}/10")
+        self.label.setText(f"Правильных ответов: {quantity_correct_answer}/10")
         CONN.cursor().execute(f"UPDATE Result SET value = value + {quantity_correct_answer}, count = count + 1")
 
         CONN.commit()
